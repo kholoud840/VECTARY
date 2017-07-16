@@ -1,0 +1,135 @@
+.hero-section{
+    background: #eee;
+    background-image:linear-gradient(to bottom left, #8D269F 0%, #300058 100%); /*radial*/
+    //background-image:url(../images/promo-rocket.png),linear-gradient(to bottom left, #8D269F 0%, #300058 100%);
+    //background-position:;
+    min-height: 300px;
+    padding: 20px 0;
+}
+.hero-section ul.services , .hero-section ul.actions{
+    display: none;
+}
+.hero-section .logo a{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+}
+.hero-section .logo img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    padding: 40px 0 10px 0;
+}
+.hero-content .hero-content-title{
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.hero-content .hero-desc{
+    color: #ce99de;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-size: 0.8em;
+}
+.start-link{
+    color: #fff;
+    display: inline-block;
+    padding: 16px 30px;
+    background: #00a5b6;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    box-shadow: 1px 3px 10px 0px #313131;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 25em){
+
+
+    .hero-section header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .services a,header .actions a {
+        color: #ce99de;
+        text-transform: uppercase;
+    }
+    .try-it-link{
+        display: inline-block;
+        background: #a038b1;
+        padding: 8px;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+    header .services li,header .actions li{
+      display: inline-block;
+        padding-left: 20px;
+    }
+   .header-left-side{
+       display: flex;
+       align-items: center;
+   }
+    .start-link{
+        width: initial;
+    }
+
+}
+@media (min-width: 37.5em) {
+    .hero-section ul.services , .hero-section ul.actions{
+        display: block;
+    }
+
+    .hero-section{
+        min-height: 500px;
+
+    }
+    .hero-content{
+        padding: 140px 0 100px 0;
+    }
+
+    .hero-content .hero-content-title{
+        font-size: 2.2em;
+        width: 76%;
+    }
+}
+
+@media (min-width: 62em) {
+
+    .hero-content .hero-content-title{
+        width: 50%;
+    }
+}
+
+/**********animations**********/
+.float-shadow {
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.float-shadow:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    transition-duration: 0.3s;
+}
+.float-shadow:hover {
+    transform: translateY(-5px);
+}
+.float-shadow:hover:before {
+    opacity: 1;
+    transform: translateY(5px);
+}
