@@ -1,8 +1,7 @@
+
 .hero-section{
     background: #eee;
-    background-image:linear-gradient(to bottom left, #8D269F 0%, #300058 100%); /*radial*/
-    //background-image:url(../images/promo-rocket.png),linear-gradient(to bottom left, #8D269F 0%, #300058 100%);
-    //background-position:;
+    background:linear-gradient(to bottom left, #8D269F 0%, #300058 100%);
     min-height: 300px;
     padding: 20px 0;
 }
@@ -50,20 +49,11 @@
     box-shadow: 1px 3px 10px 0px #313131;
     width: 100%;
     text-align: center;
+    position: relative;
 }
 
 @media (min-width: 25em){
 
-
-    .hero-section header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    header .services a,header .actions a {
-        color: #ce99de;
-        text-transform: uppercase;
-    }
     .try-it-link{
         display: inline-block;
         background: #a038b1;
@@ -71,24 +61,19 @@
         border-radius: 2px;
         font-weight: 600;
     }
-    header .services li,header .actions li{
-      display: inline-block;
-        padding-left: 20px;
-    }
-   .header-left-side{
-       display: flex;
-       align-items: center;
-   }
+
     .start-link{
         width: initial;
     }
 
 }
 @media (min-width: 37.5em) {
-    .hero-section ul.services , .hero-section ul.actions{
-        display: block;
-    }
 
+    .hero-section{
+        background: url(../images/promo-rocket.png)no-repeat 70% 56px,
+        linear-gradient(to bottom left, #8D269F 0%, #300058 100%);
+        background-size: 490px 400px,100% 100%;
+    }
     .hero-section{
         min-height: 500px;
 
@@ -100,9 +85,30 @@
     .hero-content .hero-content-title{
         font-size: 2.2em;
         width: 76%;
+        text-shadow: 1px 1px 8px #383838;
+    }
+    header .services li,header .actions li{
+        display: inline-block;
+        padding-left: 20px;
     }
 }
+@media (min-width: 43.75em) {
+    .hero-section ul.services , .hero-section ul.actions{
+        display: block;
+    }
+    header .services a,header .actions a {
+        color: #ce99de;
+        text-transform: uppercase;
+    }
+    header .menus{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-left-side ul.actions{
+        margin-left: auto;
 
+    }
+}
 @media (min-width: 62em) {
 
     .hero-content .hero-content-title{
