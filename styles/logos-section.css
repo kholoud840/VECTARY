@@ -1,0 +1,39 @@
+.logos-section {
+    background: #eee;
+    padding: 20px 0;
+}
+
+.logos-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -20px;
+}
+
+.logos-section ul li {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.logos-section ul li a {
+    display: inline-block;
+}
+
+@media (min-width: 43.75em) {
+
+    .logos-section ul {
+        justify-content: space-around;
+    }
+
+    .logos-section ul li {
+        flex-basis: initial;
+        margin-bottom: 0;
+    }
+
+    .logos-section ul {
+        margin-bottom: 0;
+    }
+
+    .logos-section .logo a:hover img {
+        filter: brightness(0) invert(50%);
+    }
+}
