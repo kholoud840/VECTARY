@@ -10,8 +10,8 @@
 }
 .hero-section .logo a{
     display: inline-block;
-    width: 140px;
-    height: 40px;
+    width: 130px;
+    height: 36px;
 }
 .hero-section .logo img{
     object-fit: contain;
@@ -93,16 +93,23 @@
     }
 }
 @media (min-width: 43.75em) {
+    header{
+        display: flex;
+        align-items: center;
+    }
     .hero-section ul.services , .hero-section ul.actions{
         display: block;
     }
     header .services a,header .actions a {
         color: #ce99de;
         text-transform: uppercase;
+        font-size: 0.7em;
     }
     header .menus{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        flex: 1;
     }
     .header-left-side ul.actions{
         margin-left: auto;

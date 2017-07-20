@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeba1107-df63-47b1-bb6e-bf1f4226b1fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/logos-section.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/hero-section.css" afterPath="$PROJECT_DIR$/styles/hero-section.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/logos-section.css" afterPath="$PROJECT_DIR$/styles/logos-section.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="571">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -34,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logos-section.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logos-section.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/logos-section.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="550">
+              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -47,8 +48,8 @@
       <file leaf-file-name="hero-section.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/hero-section.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2350">
-              <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="26" />
+            <state relative-caret-position="1750">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +88,9 @@
       <list>
         <option value="$PROJECT_DIR$/styles/style.css" />
         <option value="$PROJECT_DIR$/styles/hero-section.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/logos-section.css" />
+        <option value="$PROJECT_DIR$/styles/models-section.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -119,8 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,12 +249,20 @@
       <workItem from="1500386167943" duration="1119000" />
       <workItem from="1500389223446" duration="1814000" />
       <workItem from="1500391225620" duration="697000" />
-      <workItem from="1500398308496" duration="1009000" />
+      <workItem from="1500398308496" duration="1598000" />
+      <workItem from="1500468684408" duration="664000" />
+      <workItem from="1500498203544" duration="1936000" />
+      <workItem from="1500500362952" duration="1168000" />
+      <workItem from="1500573703742" duration="684000" />
+      <workItem from="1500578067338" duration="1061000" />
+      <workItem from="1500579889769" duration="1657000" />
+      <workItem from="1500581738171" duration="1333000" />
+      <workItem from="1500583579728" duration="856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20459000" />
+    <option name="totallyTimeSpent" value="30407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1924" height="1046" extended-state="0" />
@@ -262,18 +272,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +297,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
@@ -677,6 +695,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/logos-section.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/hero-section.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -685,29 +719,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/hero-section.css">
+    <entry file="file://$PROJECT_DIR$/styles/models-section.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2350">
-          <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="26" />
+        <state relative-caret-position="475">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="571">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/logos-section.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

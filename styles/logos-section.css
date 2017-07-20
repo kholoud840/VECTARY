@@ -1,5 +1,6 @@
 .logos-section {
-    background: #eee;
+    border-bottom: 1px solid #eee;
+    background: #fafafa;
     padding: 20px 0;
 }
 
@@ -15,18 +16,29 @@
 }
 
 .logos-section ul li a {
-    display: inline-block;
+    display: block;
+    text-align: center;
+}
+.logos-section ul li img {
+    max-width: 100%;
 }
 
 @media (min-width: 43.75em) {
-
+    .logos-section .content{
+        width: 900px;
+    }
     .logos-section ul {
-        justify-content: space-around;
+        //justify-content: space-around;
+        display: block;
+        text-align: center;
+        margin-left: -30px;
     }
 
     .logos-section ul li {
         flex-basis: initial;
         margin-bottom: 0;
+        display: inline-block;
+        padding-left: 30px;
     }
 
     .logos-section ul {
