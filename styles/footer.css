@@ -66,6 +66,9 @@ footer{
 .form{
     padding: 20px 0;
 }
+.form p{
+    display: flex;
+}
 .form .form-title{
     font-weight: 300;
     color: #e2c9e7;
@@ -113,6 +116,9 @@ footer .footer-wrapper{
     }
     input:focus{
        outline: none;
+    }
+    .footer-links .nav-links{
+        margin-bottom: 0;
     }
 }
 @media (min-width: 56.25em) {
