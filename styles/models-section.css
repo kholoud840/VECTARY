@@ -35,8 +35,7 @@
 .model {
     background: #eee;
     border-radius: 10px;
-    //height: 500 px;
-    padding: 20px;
+    padding: 16px;
     box-shadow: 2px 2px 10px 5px #e3e3e3;
 }
 
@@ -59,8 +58,6 @@
 }
 
 .actions .detail, .actions .customize {
-    float: left;
-    width: calc(50% - 10px);
     text-align: center;
     padding: 10px;
     border: 1px solid #ccc;
@@ -71,6 +68,8 @@
     margin-left: 6px;
     border-radius: 4px;
     cursor: pointer;
+    flex:1;
+    margin-bottom: 10px;
 }
 
 .actions .detail {
@@ -86,6 +85,8 @@
 .actions {
     position: relative;
     margin-left: -6px; /*?*/
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .actions::after {

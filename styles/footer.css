@@ -1,0 +1,123 @@
+footer{
+    background: #752084;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-links .nav-links{
+    margin-bottom: 20px;
+}
+.footer-links .nav-links li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.footer-links .nav-links li a {
+    color: #ce99de;
+    font-size: 0.7em;
+}
+.footer-links .nav-links li a img {
+    height: 8px;
+}
+.footer-links .social-media-links li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.footer-links .social-media-links li a{
+    padding: 6px ;
+    display: inline-block;
+    border-radius: 50%;
+    background: #8D269F;
+    width: 30px;
+    height: 30px;
+}
+.footer-links .social-media-links img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.footer-links .social-media-links li a:hover{
+    background: #ed7e74;
+}
+
+.footer-menus {
+    columns:3;
+}
+.footer-menus div{
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+}
+.footer-menus .menu-title{
+    color: #ed7e74;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+.footer-menus ul li  {
+   margin-bottom: 16px;
+}
+.footer-menus ul li a {
+    color: #ce99de;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+
+
+.form{
+    padding: 20px 0;
+}
+.form .form-title{
+    font-weight: 300;
+    color: #e2c9e7;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    text-shadow: 1px 1px 8px #383838;
+}
+.form label{
+    display: none;
+}
+input{
+    background: #fff;
+    padding: 16px;
+    border:none;
+    border-radius:6px 0 0 6px;
+}
+.form button{
+    border:none;
+    border-radius:0 6px 6px 0;
+    background:#00a5b6;
+    padding: 16px;
+    text-transform: uppercase;
+    color:#fff;
+}
+footer .footer-wrapper{
+
+    margin-bottom: 40px;
+}
+@media (min-width: 37.5em) {
+    .footer-menus {
+        width:450px;
+        columns:3;
+    }
+    footer{
+        text-align:initial ;
+    }
+    .footer-links{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .footer-wrapper{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    input:focus{
+       outline: none;
+    }
+}
+@media (min-width: 56.25em) {
+    footer {
+        background: url(../images/vp-footer-toucan.png) no-repeat 20% -16px, #752084;
+        background-size: 300px 250px, 100% 100%;
+    }
+}
